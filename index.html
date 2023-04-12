@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title> toast</title>
+  <link href="css/style.css" rel="stylesheet">
+</head>
+<body>
+      <section>
+	        <div class="tot">
+			      <button class="mah">Toast</button>
+				<div class="container hide">
+				         <div class="head">
+				             <h3> toast msg</h3>
+					    </div>
+					    <div class="para">
+					      <p> this is a toast message</p>
+						</div>
+						<div class="button">
+						  <button class="ok">ok</button>
+						  <button class="cancel">cancel</button>
+						</div>
+				</div>
+			</div>
+	           
+</section>
+<script>
+ let btn=document.querySelector("button");
+let ok=document.querySelector(".ok");
+let cancel=document.querySelector(".cancel");
+let toast=document.querySelector(".container");
+
+btn.addEventListener("click",function()
+{
+	toast.classList.remove("hide");
+});
+ok.addEventListener("click",function()
+{
+	toast.classList.add("hide");
+});
+cancel.addEventListener("click",function()
+{
+	toast.classList.add("hide");
+	});
+
+
+</script>
+
+</body>
+</html>

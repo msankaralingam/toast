@@ -1,0 +1,56 @@
+.container{
+	border:1px solid;
+	width:25%;
+	height:200px;
+	text-align:center;
+	border-radius:15px;
+	box-shadow:5px 5px 5px black;
+	
+}
+.button{
+	text-align:left;
+	
+}
+.hide{
+	display:none;
+}
+.ok{
+	background-color:blue;
+	color:white;
+	width:80px;
+	height:30px;
+	
+}
+.cancel{
+	background-color:green;
+	color:white;
+	height:30px;
+	width:80px;
+	margin:9px;
+}
+.ok:hover{
+	background-color:purple;
+	color:white;
+}
+.cancel:hover{
+	background-color:purple;
+	color:white;
+}
+.tot{
+	text-align:center;
+	margin-top:20%;
+}
+.head{
+	border-bottom:1px solid;
+	text-align:left;
+	margin:10px;
+}
+.para{
+	border-bottom:1px solid;
+	text-align:left;
+	margin:10px;
+}
+.container{
+	position:relative;
+	left:750px;
+}
